@@ -134,6 +134,49 @@ int[] nums4 = Arrays.copyOf(nums1, 5);     // {1, 2, 3, 0, 0};
 int[] nums5 = Arrays.copyOfRange(nums1, 1, 2); // {2}
 ```
 
+Shallow copy vs Deep copy - Example:
+
+```java
+import java.util.Arrays;
+
+/**
+ *
+ * @author adinashby
+ */
+public class CopyExample {
+
+    private int[] data;
+
+    public CopyExample(int[] values) {
+        // Shallow Copy
+        //this.data = values;
+
+        // Deep Copy
+        data = new int[values.length];
+
+        for(int i = 0; i < data.length; i++) {
+            data[i] = values[i];
+        }
+    }
+
+    public void showData() {
+        System.out.println(Arrays.toString(data));
+    }
+}
+```
+
+```java
+public static void main(String[] args) {
+    int[] values = { 1, 2, 3 };
+
+    CopyExample copyExample = new CopyExample(values);
+
+    copyExample.showData();
+    values[0] = 13;
+    copyExample.showData();
+}
+```
+
 ### 4.4. sort an array
 
 ```java
