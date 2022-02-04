@@ -6,6 +6,12 @@
 
 ## **Submission:**
 
+**Please submit a `.zip` file for this assignment that includes the following `.java` files**.
+
+    1. one `.java` file for Task 1
+    2. one `.java` file for Task 2.1
+    3. one `.java` file for Task 2.2
+
 **Full Score**: 100
 
 ## **Knowledge Points** of This Assignment
