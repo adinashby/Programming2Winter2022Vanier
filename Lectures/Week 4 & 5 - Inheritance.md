@@ -330,10 +330,14 @@ In the previous example, we have `Animal` and `Dog`, if we have another class `C
 
 ```java
 public class Zoo {
-    private List<Animal> animals;
+    private ArrayList<Animal> animals = new ArrayList<Animal>();
 
-    public addAnimal(Animal animal) {
+    public void addAnimal(Animal animal) {
          animals.add(animal);
+    }
+
+    public ArrayList<Animal> getAnimals() {
+          return animals;
     }
 }
 ```
@@ -353,11 +357,11 @@ public static void main() {
 
 Back to the previous example, if we want to all dogs in the zoo to play with human, we can use the following code:
 
-``````java
+```java
 public static void main() {
-    `````
+    ...
     for (Animal animal : animals)
         if (animal instanceof Dog)   				// only if the animal is Dog
             ((Dog) animal).playWithHuman();			// cast it to Dog, then call the playWithHuman() method
 }
-``````
+```
