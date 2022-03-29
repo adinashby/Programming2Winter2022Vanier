@@ -153,7 +153,7 @@ We can create a new class which will be used to compare two students based on th
 ```java
 /**
  * A Comparator to compare two students based on their ages, then fname, then lname
- */public static class AgeComparator implements Comparator<Student> {
+ */public class AgeComparator implements Comparator<Student> {
 
      @Override
      public int compare(Student s1, Student s2) {
@@ -170,7 +170,7 @@ We can create a new class which will be used to compare two students based on th
  * A Comparator to compare two students based on their gender, then fname,
  * then lname, then id
  */
-public static class GenderComparator implements Comparator<Student> {
+public class GenderComparator implements Comparator<Student> {
 
     @Override
     public int compare(Student s1, Student s2) {
@@ -191,7 +191,7 @@ Now we have three additional classes, each class is a comparator with a specific
  *
  * @param students the original students list
  */
-public static void sortStudents(ArrayList<Student> students) {
+public void sortStudents(ArrayList<Student> students) {
     System.out.println("How do you want to sort the students");
     System.out.println("1. based on the age");
     System.out.println("2. based on the name");
