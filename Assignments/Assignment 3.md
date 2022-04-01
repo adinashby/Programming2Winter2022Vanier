@@ -25,7 +25,7 @@ April-1 23:55:00. **Late submission will directly be marked as 0**.
 In this assignment, you will modify your Assignment 2 structure (UML and code) to:
 
 1. Create abstract classes for common functionalities where it is appropriate.
-2. Create interfaces for where it is needed e.g. your system class.
+2. Create interfaces for where it is needed e.g. your system class. **at least two different** ones is required.
 3. Create **at least three different** Comparator classes based on data members.
 4. Update the UML diagram and implement concepts of association, aggregation and/or composition appropriate to your project.
 
