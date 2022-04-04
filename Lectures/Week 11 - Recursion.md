@@ -145,4 +145,4 @@ public static void main(String[] args) {
 
 Here is an example of the methods calling and returning flow of the previous example:
 
-![](imgs\Chapter3\flow.png)
+![](imgs/Chapter3/flow.png)
