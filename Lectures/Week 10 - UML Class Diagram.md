@@ -1,4 +1,4 @@
-# 2.4 Class Diagram
+# 2.5 Class Diagram
 
 ## 1. What is Class Diagram
 
@@ -27,19 +27,19 @@ A class can contains three parts:
 2. Data members and static variables: in the second part, all data members and static variables are listed. You have to pay attention to:
 
    1. Access modifier:
-      * `public`: `+`
-      * `private`: `-`
-      * `protected`: `#`
-      * `default`: `~`
+      - `public`: `+`
+      - `private`: `-`
+      - `protected`: `#`
+      - `default`: `~`
    2. data type: different from Java syntax, the data type is defined after the variable name
-   3. `static`: if a variable or a method is static, it should be noticed with **underline**. 
+   3. `static`: if a variable or a method is static, it should be noticed with **underline**.
 
 3. Methods: in the third part, all important methods are listed. You have to pay attention to:
 
    1. Only add important methods: Not all methods should be added to the class diagram, methods like constructors, equals(), hashcode(), toString(), getters and setters should not be added to the diagram, those methods will not bring any information to the class diagram since every class should have them, and they will make the class diagram super long and difficult to read.
    2. return type: the return type should also be written after the method name
    3. parameters: if a method requires parameters, then for each parameter, the data type should also be after the parameter name.
-   4. abstract and override: if a method is abstract or override, use `<<abstract>>`  or `<<override>>` to indicate.
+   4. abstract and override: if a method is abstract or override, use `<<abstract>>` or `<<override>>` to indicate.
 
 #### 2.1.2 Interface
 
@@ -61,9 +61,7 @@ If a class implements an interface, then there is a dashed line triangle arrow p
 
 ![](imgs\Chapter2\2.4-implementation.JPG)
 
-
-
-### 2.2.3  Association, Aggregation and Composition
+### 2.2.3 Association, Aggregation and Composition
 
 Previous relationships relates to inheritance, however, two classes not necessary in the same hierarchy can still have some relationship between.
 
