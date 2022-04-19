@@ -24,7 +24,7 @@ Apr-15 23:55:00. **Late submission will directly be marked as 0**.
 
 1. Create a method `void printShape(int row, char symbol)` that prints a certain pattern displayed as below:
 
-   (Note, for all `pringShape` methods, you allow to use for loop to print a row, but you should only use recursion to shift from one row to another)
+   (Note, for all `printShape` methods, you allow to use for loop to print a row, but you should only use recursion to shift from one row to another)
 
 ```java
 5, @
