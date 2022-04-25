@@ -2,7 +2,7 @@
 
 ## **Due Date:**
 
-April-1 23:55:00. **Late submission will directly be marked as 0**.
+April-3 23:55:00. **Late submission will directly be marked as 0**.
 
 ## **Submission:**
 
