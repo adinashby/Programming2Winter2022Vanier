@@ -61,7 +61,7 @@ Cell 5: num1 = 5, num2 = 5, result = 5 / 5 -> 1.00
 Cell 6: num1 = 0, num2 = null, result = 0 / null -> N
 Cell 7: num1 = 7, num2 = 3, result = 7 / 3 -> 2.33
 Cell 8: num1 = -8, num2 = 2, result = -8 / 2 -> I
-Cell 9: num1 = 9, num2 = 1, result = 0 / 1 -> 0.00
+Cell 9: num1 = 0, num2 = 1, result = 0 / 1 -> 0.00
 */
     
 // result
